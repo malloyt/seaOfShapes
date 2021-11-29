@@ -48,7 +48,7 @@ void draw() {
 	noStroke();
 	fill(0, 0, 0, fade);
 	rect(0, 0, 500, recth);
-	if (recth >= 450) {
+	if (recth >= 475) {
 		decision = 0;
 		fade = 100;
 		recth = 20;
