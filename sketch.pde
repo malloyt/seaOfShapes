@@ -31,9 +31,6 @@ void draw() {
   drawWoman2(730, 350);
 
   drawBrokenBricks();
-
-  fill(255);
-  text(mouseX + "," + mouseY, 50, 50);
 }
 
 void drawWoman(float headX, float headY) {
