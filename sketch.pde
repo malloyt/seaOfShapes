@@ -54,7 +54,7 @@ void drawWoman(float headX, float headY) {
   rect(headX-20, headY+20, 40, 5, 28); //woman's shoulders
   line(headX-20, headY+20, headX-35, headY+65); //left arm
   line(headX+20, headY+20, headX+35, headY+65); //right arm
-  circle(headX, headY, 20); //woman's head
+  ellipse(headX, headY, 20,20); //woman's head
 }
 
 void drawMan(float headX, float headY) {
