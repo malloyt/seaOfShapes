@@ -73,7 +73,7 @@ void drawMan(float headX, float headY) {
   fill(100, 100, 100);
   rect(headX+33, headY+45, 3, 35, 28); //rectangle for rounded right arm
   strokeWeight(10);
-  circle(headX, headY, 20); //man's head
+  ellipse(headX, headY, 20,20); //man's head
 }
 
 void drawMan2(float headX, float headY) {
@@ -104,13 +104,13 @@ void drawMan2(float headX, float headY) {
 
 
   strokeWeight(10);
-  circle(headX, headY, 20); //man's head
+  ellipse(headX, headY, 20,20); //man's head
 }
 
 void drawWoman2(float headX, float headY) {
   stroke(100, 100, 100);
   fill(100, 100, 100);
-  circle(headX, headY, 20);
+  ellipse(headX, headY, 20,20);
   line(headX-25, headY-5, headX+3, headY-25); //woman's shoulders
   quad(headX-8, headY-15, headX-15, headY-15, headX-65, headY-55, headX-20, headY-80); //woman's body
 
