@@ -1,10 +1,8 @@
 //Genuary 1/20/2022 Sea of Shapes
 
-
 void setup() {
   size(500, 500);
   background(0);
-
 }
 
 void draw() {
@@ -13,7 +11,6 @@ void draw() {
 }
 
 void waves() {
-
   fill(255);
   stroke(255);
   int x = 0;
@@ -56,12 +53,10 @@ void shape() {
     fill(150, 185, 250);
     rect(x, y, w, h);
   }
-
   if (c == 2) {
     fill(150, 240, 250);
     ellipse(x, y, w, h);
   }
-
   if (c == 3) {
     fill(90, 130, 215);
     triangle(x, y, x+5, y+15, x-5, y+15);
